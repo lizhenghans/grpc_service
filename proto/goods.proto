@@ -1,0 +1,204 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "./";
+// 添加购物车
+message AddShopCarReq {
+  int64 userId  = 1;
+  int64 GoodsId =2;
+  int64 Num =3;
+}
+
+message AddShopCarResp {
+}
+// 增加购物车记载数量
+message AddShopCarNumReq {
+  int64 userId  = 1;
+  int64 GoodsId =2;
+}
+
+message AddShopCarNumResp {
+}
+// 减少购物车记载数量
+message PopShopCarNumReq {
+  int64 userId  = 1;
+  int64 GoodsId =2;
+}
+
+message PopShopCarNumResp {
+}
+// 直接修改购物车数量
+message UpdateShopCarNumReq {
+  int64 userId  = 1;
+  int64 GoodsId =2;
+  int64 Num =3;
+}
+message UpdateShopCarNumResp {
+}
+//清空购物车
+message CleanShopCarReq {
+  int64 userId  = 1;
+}
+message CleanShopCarResp {
+}
+// 获取购物车未支付商品的总价
+message GetShopCarAllPriceReq {
+  int64 userId  = 1;
+}
+message GetShopCarAllPriceResp {
+  float price = 2;
+}
+
+message ShopCarList {
+  string goodsName =1;
+  float  goodsPrice =2;
+  string grandName =3;
+  string goodsUrl =4;
+  string goodsDesc =5;
+  int64  num =6;
+  int64  id =7;
+  string shopName =9;
+  string color =10;
+  string size =11;
+  string material =12;
+}
+// 获取购物车列表
+message UserShopCarListReq {
+  int64 userId =1;
+}
+message UserShopCarListResp {
+  repeated ShopCarList list =1;
+}
+// 根据商品名查redis查
+message UserSearchShopCarByNameReq {
+  string name =1;
+  int64  userId =2;
+}
+message UserSearchShopCarByNameResp {
+  repeated ShopCarList list =1;
+}
+// 删除某项购物车数据
+message DelOneShopCarDataReq {
+  int64 userId  = 1;
+  int64 GoodsId =2;
+}
+message DelOneShopCarDataResp {
+}
+//首页搜索列表
+message WelcomeSearchShopListReq {
+  string brandName =1;
+  int64 page =2;
+  int64 pageSize =3;
+}
+message WelcomeSearchShopListResp {
+  repeated WelcomeSearchShopList list =1;
+}
+message WelcomeSearchShopList {
+  string BrandLogo =1;
+  string GoodsName =2;
+  string BrandDescription=3;
+  float  GoodsPrice=4;
+  string BrandName=5;
+  string GoodsUrl=6;
+  string GoodsDesc=7;
+  int64  GoodsStock=8;
+  int64  GoodsStatus=9;
+  int64 Sales=10;
+}
+// 商品详情
+message GoodsDetailReq {
+  int64 goods_id = 1; // 商品ID
+}
+
+message GoodsDetailResp {
+  GoodsDetail goodsDetail=1;
+}
+message GoodsDetail {
+  int64 goods_id = 1;
+  string goods_name = 2;
+  double goods_price = 3;
+  string goods_desc = 4;
+  string image_url=5;
+  string slider_image=6;
+}
+// 店铺详情
+message ShopDetailReq {
+  int64 goods_id = 1; // 商店ID
+}
+
+message ShopDetailResp {
+  ShopDetail shopDetail = 1;
+}
+message ShopDetail {
+  int64 goods_id=1;
+  string goods_name=2;
+  float  goods_price=3;
+  string goods_desc=4;
+  string shop_name=5;
+  string shop_desc=6;
+  string shop_logo=7;
+  string shop_phone=8;
+  string shop_address=9;
+  string shop_status=10;
+  string image_url=11;
+  string slider_image=12;
+}
+//商品推荐
+message GoodsPushReq {
+
+}
+
+message GoodsPushResp {
+  repeated GoodsPush List=1;
+}
+message GoodsPush {
+  int64 goods_id=1;
+  string goods_name=2;
+  float goods_price=3;
+  string brand_name=4;
+  string goods_url=5;
+  string slider_image=6;
+  int64 sales=7;
+  string goods_desc=8;
+}
+//首页搜索
+message WelcomeSearchReq {
+  int64 id =1;
+}
+message WelcomeSearchResp {
+  int64 id =1;
+  string brandName =2;
+  string   brandLogo =3;
+  string  brandDescription =4;
+}
+//热度值
+message HotSearchReq {
+  int64 Limit = 1;
+}
+message HotSearchResp {
+  repeated HotList list =1;
+}
+message HotList {
+  int64 id =1;
+  string brandName =2;
+  int64 hot  = 3;
+}
+
+service Goods {
+  rpc AddShopCar(AddShopCarReq) returns (AddShopCarResp); //添加购物车
+  rpc AddShopCarNum(AddShopCarNumReq) returns (AddShopCarNumResp); //增加购物车记载数量
+  rpc PopShopCarNum(PopShopCarNumReq) returns (PopShopCarNumResp); //减少购物车记载数量
+  rpc CleanShopCar(CleanShopCarReq) returns (CleanShopCarResp); //清空购物车
+  rpc UpdateShopCarNum(UpdateShopCarNumReq) returns (UpdateShopCarNumResp); //修改购物车记在数量
+  rpc GetShopCarAllPrice(GetShopCarAllPriceReq) returns (GetShopCarAllPriceResp); //获取购物车未支付商品的总价
+  rpc UserShopCarList(UserShopCarListReq) returns (UserShopCarListResp); //获取购物车列表
+  rpc UserSearchShopCarByName(UserSearchShopCarByNameReq) returns (UserSearchShopCarByNameResp); //根据商品名查redis查
+  rpc DelOneShopCarData(DelOneShopCarDataReq) returns (DelOneShopCarDataResp); //删除某项购物车数据
+  rpc WelcomeSearchShopList(WelcomeSearchShopListReq) returns (WelcomeSearchShopListResp); //首页搜索列表
+  rpc GoodsDetail (GoodsDetailReq) returns (GoodsDetailResp); //商品详情
+  rpc ShopDetail (ShopDetailReq) returns (ShopDetailResp); //店铺详情
+  rpc GoodsPush (GoodsPushReq) returns (GoodsPushResp); //店铺详情
+  rpc WelcomeSearch(WelcomeSearchReq) returns (WelcomeSearchResp); //首页搜索
+  rpc HotSearch(HotSearchReq) returns (HotSearchResp); //热度搜索
+}

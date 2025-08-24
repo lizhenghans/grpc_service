@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AddShopCarNumReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddShopCarNumResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddShopCarReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddShopCarResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CleanShopCarReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CleanShopCarResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DelOneShopCarDataReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DelOneShopCarDataResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetShopCarAllPriceReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetShopCarAllPriceResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsDetail">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsDetailReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsDetailResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsPush">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsPushReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GoodsPushResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GrpcClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/unilt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HotList">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HotSearchReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HotSearchResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PopShopCarNumReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PopShopCarNumResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Server">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/client/grpc_goods.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ShopCarList">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ShopDetail">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ShopDetailReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ShopDetailResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UnimplementedGoodsServer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdateShopCarNumReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdateShopCarNumResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserSearchShopCarByNameReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserSearchShopCarByNameResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserShopCarListReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserShopCarListResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WelcomeSearchReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WelcomeSearchResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WelcomeSearchShopList">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WelcomeSearchShopListReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="WelcomeSearchShopListResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="goodsClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods_grpc.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="x">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/proto/goods.pb.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/client/grpc_goods.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1756051702322" />
+              <option name="schema">
+                <list>
+                  <option value="Server" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1756051757907" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1756050400226" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/proto/goods.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1756030636948" />
+              <option name="schema">
+                <list>
+                  <option value="AddShopCarReq" />
+                  <option value="AddShopCarResp" />
+                  <option value="AddShopCarNumReq" />
+                  <option value="AddShopCarNumResp" />
+                  <option value="PopShopCarNumReq" />
+                  <option value="PopShopCarNumResp" />
+                  <option value="UpdateShopCarNumReq" />
+                  <option value="UpdateShopCarNumResp" />
+                  <option value="CleanShopCarReq" />
+                  <option value="CleanShopCarResp" />
+                  <option value="GetShopCarAllPriceReq" />
+                  <option value="GetShopCarAllPriceResp" />
+                  <option value="ShopCarList" />
+                  <option value="UserShopCarListReq" />
+                  <option value="UserShopCarListResp" />
+                  <option value="UserSearchShopCarByNameReq" />
+                  <option value="UserSearchShopCarByNameResp" />
+                  <option value="DelOneShopCarDataReq" />
+                  <option value="DelOneShopCarDataResp" />
+                  <option value="WelcomeSearchShopListReq" />
+                  <option value="WelcomeSearchShopListResp" />
+                  <option value="WelcomeSearchShopList" />
+                  <option value="GoodsDetailReq" />
+                  <option value="GoodsDetailResp" />
+                  <option value="GoodsDetail" />
+                  <option value="ShopDetailReq" />
+                  <option value="ShopDetailResp" />
+                  <option value="ShopDetail" />
+                  <option value="GoodsPushReq" />
+                  <option value="GoodsPushResp" />
+                  <option value="GoodsPush" />
+                  <option value="WelcomeSearchReq" />
+                  <option value="WelcomeSearchResp" />
+                  <option value="HotSearchReq" />
+                  <option value="HotSearchResp" />
+                  <option value="HotList" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/proto/goods_grpc.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1756030636948" />
+              <option name="schema">
+                <list>
+                  <option value="goodsClient" />
+                  <option value="UnimplementedGoodsServer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/unilt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1756051780231" />
+              <option name="schema">
+                <list>
+                  <option value="GrpcClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="add_shop_car_num_req" value="AddShopCarNumReq" />
+        <entry key="add_shop_car_num_resp" value="AddShopCarNumResp" />
+        <entry key="add_shop_car_req" value="AddShopCarReq" />
+        <entry key="add_shop_car_resp" value="AddShopCarResp" />
+        <entry key="clean_shop_car_req" value="CleanShopCarReq" />
+        <entry key="clean_shop_car_resp" value="CleanShopCarResp" />
+        <entry key="del_one_shop_car_data_req" value="DelOneShopCarDataReq" />
+        <entry key="del_one_shop_car_data_resp" value="DelOneShopCarDataResp" />
+        <entry key="get_shop_car_all_price_req" value="GetShopCarAllPriceReq" />
+        <entry key="get_shop_car_all_price_resp" value="GetShopCarAllPriceResp" />
+        <entry key="goods_client" value="goodsClient" />
+        <entry key="goods_detail" value="GoodsDetail" />
+        <entry key="goods_detail_req" value="GoodsDetailReq" />
+        <entry key="goods_detail_resp" value="GoodsDetailResp" />
+        <entry key="goods_push" value="GoodsPush" />
+        <entry key="goods_push_req" value="GoodsPushReq" />
+        <entry key="goods_push_resp" value="GoodsPushResp" />
+        <entry key="grpc_client" value="GrpcClient" />
+        <entry key="hot_list" value="HotList" />
+        <entry key="hot_search_req" value="HotSearchReq" />
+        <entry key="hot_search_resp" value="HotSearchResp" />
+        <entry key="pop_shop_car_num_req" value="PopShopCarNumReq" />
+        <entry key="pop_shop_car_num_resp" value="PopShopCarNumResp" />
+        <entry key="server" value="Server" />
+        <entry key="shop_car_list" value="ShopCarList" />
+        <entry key="shop_detail" value="ShopDetail" />
+        <entry key="shop_detail_req" value="ShopDetailReq" />
+        <entry key="shop_detail_resp" value="ShopDetailResp" />
+        <entry key="unimplemented_goods_server" value="UnimplementedGoodsServer" />
+        <entry key="update_shop_car_num_req" value="UpdateShopCarNumReq" />
+        <entry key="update_shop_car_num_resp" value="UpdateShopCarNumResp" />
+        <entry key="user_search_shop_car_by_name_req" value="UserSearchShopCarByNameReq" />
+        <entry key="user_search_shop_car_by_name_resp" value="UserSearchShopCarByNameResp" />
+        <entry key="user_shop_car_list_req" value="UserShopCarListReq" />
+        <entry key="user_shop_car_list_resp" value="UserShopCarListResp" />
+        <entry key="welcome_search_req" value="WelcomeSearchReq" />
+        <entry key="welcome_search_resp" value="WelcomeSearchResp" />
+        <entry key="welcome_search_shop_list" value="WelcomeSearchShopList" />
+        <entry key="welcome_search_shop_list_req" value="WelcomeSearchShopListReq" />
+        <entry key="welcome_search_shop_list_resp" value="WelcomeSearchShopListResp" />
+        <entry key="x" value="x" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1756050053411" />
+  </component>
+</project>
