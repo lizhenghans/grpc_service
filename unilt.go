@@ -1,8 +1,8 @@
 package grpc_service
 
 import (
-	goods "github.com/lizhenghan-cn/goods_grpc/proto"
 	"github.com/lizhenghans/grpc_service/client"
+	"github.com/lizhenghans/grpc_service/proto"
 	"log"
 )
 
@@ -14,7 +14,7 @@ func NewGrpcClient(address string) *GrpcClient {
 	return &GrpcClient{Address: address}
 }
 
-func (g *GrpcClient) NewGrpcApi() goods.GoodsClient {
+func (g *GrpcClient) NewGrpcApi() __.GoodsClient {
 	log.Printf("GrpcAPi服务启动")
 	return client.GoodsGrpcApi(g.Address)
 }

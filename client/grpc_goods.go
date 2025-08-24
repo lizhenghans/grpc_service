@@ -2,7 +2,7 @@ package client
 
 import (
 	"flag"
-	goods "github.com/lizhenghan-cn/goods_grpc/proto"
+	goods "github.com/lizhenghans/grpc_service/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log"
