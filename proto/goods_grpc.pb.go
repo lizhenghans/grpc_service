@@ -4,7 +4,7 @@
 // - protoc             v3.19.4
 // source: goods.proto
 
-package __
+package proto
 
 import (
 	context "context"
